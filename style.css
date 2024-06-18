@@ -95,7 +95,7 @@ font-weight: 500;
 }
 
 .assuntos {
-    border: 1px solid red;
+
 
     display: flex;
     flex-direction: column;
@@ -112,6 +112,21 @@ font-weight: 500;
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primery-text-color);
+    
+}
+
+.assuntos button div  {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img {
+    width: 100%;;
 }
 
 .botao_html div {
@@ -121,6 +136,7 @@ font-weight: 500;
 
 
 .botao_css div {
+  
     background: var(--bg-css);
 }
 
